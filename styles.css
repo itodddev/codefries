@@ -1,3 +1,9 @@
+/* Common Styles */
+body {
+    margin     : 0;
+    font-family: 'Roboto', sans-serif;
+}
+
 /* Common Nav Styles */
 
 .navigation-wrapper {
@@ -9,4 +15,38 @@
     justify-content : space-between;
     align-items     : center;
     padding         : 60px 100px;
+}
+
+.left-column {
+    display    : flex;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 15px;
+}
+
+.icon i {
+    font-size: 2em;
+}
+
+.left-column>.contact-hours-wrapper {
+    display              : grid;
+    grid-template-columns: 1fr;
+    grid-gap             : 10px;
+}
+
+.contact-hours-wrapper>.hours {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.nav-link a {
+    font-family: 'Ubuntu Condensed',
+        sans-serif;
+    color: white;
+}
+
+.address-wrapper {
+    font-family: 'Ubuntu Condensed',
+        sans-serif;
 }
