@@ -3,3 +3,18 @@
   height: 60px;
   width: 100%;
 }
+
+.anchor-link {
+  text-decoration: none;
+}
+
+.anchor-link:focus {
+  outline: none;
+}
+
+.anchor-link h1::after {
+  font-family: "Font Awesome 5 Free"; /* Have to have font famility */
+  content: " \f0c1"; /* Unicode for fa5 link icon */
+  font-weight: 900; /* Also needed */
+  font-size: 0.8em;
+}
