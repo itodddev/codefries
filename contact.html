@@ -3,15 +3,145 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>Contact Us</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/skewed-header.css" />
+    <link rel="stylesheet" href="css/page-container.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/helpers.css" />
+    <link rel="stylesheet" href="css/form.css" />
+    <link rel="stylesheet" href="css/buttons.css" />
   </head>
   <body>
-    <h1>Contact</h1>
+    <div class="skewed-header">
+      <div
+        class="header-bg"
+        style="background-image: url('images/backgrounds/contact.jpg');"
+      ></div>
+      <div class="skewed-header-wrapper">
+        <div class="skewed-header-content">
+          <div class="heading-wrapper">
+            <h1>Contact Us</h1>
+          </div>
+          <div class="links-wrapper">
+            <div class="nav-link">
+              <a href="index.html">Home</a>
+            </div>
+            <div class="nav-link">
+              <a href="about.html">About</a>
+            </div>
+            <div class="nav-link">
+              <a href="menu.html">Menu</a>
+            </div>
+            <div class="nav-link">
+              <a href="contact.html">Contact</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="menu.html">Menu</a>
-    <a href="contact.html">Contact</a>
+    <div class="page-container">
+      <div class="contact-grid-wrapper">
+        <div class="company-metadata-sidebar-wrapper">
+          <div class="logo">
+            <img
+              src="images/logos/decamp-fantastic-fries-logo-dark.png"
+              alt="logo"
+            />
+          </div>
+
+          <div class="company-details-wrapper">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>123 Any St<br />Scottsdale, AZ 85251</div>
+          </div>
+          <div class="company-details-wrapper">
+            <i class="fas fa-phone-volume"></i>
+            <div>555 555 5555</div>
+          </div>
+          <div class="company-details-wrapper">
+            <i class="far fa-clock"></i>
+            <div>10 AM - MIDNIGHT</div>
+          </div>
+        </div>
+
+        <div class="form">
+          <div class="form-group">
+            <input type="text" id="fullName" placeholder="Your name" />
+            <label for="fullName">Your name</label>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" placeholder="Your email" />
+            <label for="email">Your email</label>
+          </div>
+          <div class="form-group">
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Message"
+            ></textarea>
+            <label for="message">Message</label>
+          </div>
+
+          <div class="spacer10"></div>
+
+          <div class="centered-button-wrapper">
+            <button type="submit" class="btn">Send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="spacer60"></div>
+
+    <div class="footer">
+      <div class="footer-logo">
+        <img
+          src="images/logos/decamp-fantastic-fries-logo-white.png"
+          alt="logo"
+        />
+      </div>
+      <div class="footer-phone-hours">
+        <span class="phone">555 555 5555</span>
+        <span class="hours">10 am - midnight</span>
+      </div>
+      <div class="links-wrapper">
+        <div class="nav-link">
+          <a href="index.html">Home</a>
+        </div>
+        <div class="nav-link">
+          <a href="about.html">About</a>
+        </div>
+        <div class="nav-link">
+          <a href="menu.html">Menu</a>
+        </div>
+        <div class="nav-link">
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+      <div class="social-media-icons-wrapper">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+      </div>
+      <div class="copyright-wrapper">
+        &copy; 2020 DevCamp &#124; All rights reserved
+      </div>
+    </div>
   </body>
 </html>
