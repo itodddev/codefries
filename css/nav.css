@@ -1,119 +1,119 @@
 /* Common Nav Styles */
 .navigation-wrapper {
-  height: 190px;
+  height          : 190px;
   background-color: #11122b;
-  color: #cbcbcb;
+  color           : #cbcbcb;
   /* Flexboc Container */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 60px 100px;
+  display         : flex;
+  justify-content : space-between;
+  align-items     : center;
+  padding         : 60px 100px;
 }
 
-.navigation-wrapper > .left-column {
-  display: flex;
+.navigation-wrapper>.left-column {
+  display    : flex;
   align-items: center;
 }
 
-.navigation-wrapper > .left-column > .icon {
+.navigation-wrapper>.left-column>.icon {
   margin-right: 15px;
 }
 
-.navigation-wrapper > .left-column > .icon i {
+.navigation-wrapper>.left-column>.icon i {
   font-size: 2em;
 }
 
-.navigation-wrapper > .left-column > .contact-hours-wrapper {
-  display: grid;
+.navigation-wrapper>.left-column>.contact-hours-wrapper {
+  display              : grid;
   grid-template-columns: 1fr;
-  grid-gap: 10px;
+  grid-gap             : 10px;
 }
 
-.navigation-wrapper > .left-column > .contact-hours-wrapper > .hours {
+.navigation-wrapper>.left-column>.contact-hours-wrapper>.hours {
   font-family: "Ubuntu Condensed", sans-serif;
-  color: #858585;
-  font-size: 0.8em;
+  color      : #858585;
+  font-size  : 0.8em;
 }
 
-.links-wrapper > .nav-link a {
+.links-wrapper>.nav-link a {
   font-family: "Ubuntu Condensed", sans-serif;
-  color: white;
+  color      : white;
 }
 
-.navigation-wrapper > .center-column {
-  display: grid;
+.navigation-wrapper>.center-column {
+  display              : grid;
   grid-template-columns: 1fr;
-  grid-gap: 42px;
-  width: 500px;
+  grid-gap             : 42px;
+  width                : 500px;
 }
 
-.navigation-wrapper > .center-column > .banner-image {
-  display: flex;
+.navigation-wrapper>.center-column>.banner-image {
+  display        : flex;
   justify-content: center;
 }
 
-.navigation-wrapper > .center-column > .banner-image img {
-  width: 216px;
+.navigation-wrapper>.center-column>.banner-image img {
+  width : 216px;
   height: 100%;
 }
 
 .links-wrapper {
-  display: flex;
+  display        : flex;
   justify-content: space-between;
-  align-content: center;
+  align-items    : center;
 }
 
-.links-wrapper > .nav-link {
-  width: 70px;
+.links-wrapper>.nav-link {
+  width     : 70px;
   text-align: center;
   /* Give nav links a width more than content width, so when
     you hover it doesnt move the links.
     */
 }
 
-.links-wrapper > .nav-link a {
-  font-family: "Ubuntu Condensed", sans-serif;
-  color: #cbcbcb;
+.links-wrapper>.nav-link a {
+  font-family    : "Ubuntu Condensed", sans-serif;
+  color          : #cbcbcb;
   text-decoration: none;
-  transition: 0.5s;
+  transition     : 0.5s;
 }
 
-.links-wrapper > .nav-link a:hover {
-  color: #cea135;
+.links-wrapper>.nav-link a:hover {
+  color         : #cea135;
   letter-spacing: 2px;
 }
 
-.navigation-wrapper > .right-column {
-  display: flex;
+.navigation-wrapper>.right-column {
+  display    : flex;
   align-items: center;
 }
 
-.navigation-wrapper > .right-column > .address-wrapper {
+.navigation-wrapper>.right-column>.address-wrapper {
   font-family: "Ubuntu Condensed", sans-serif;
-  text-align: right;
+  text-align : right;
 }
 
-.navigation-wrapper > .right-column > .address-wrapper a {
-  color: #858585;
+.navigation-wrapper>.right-column>.address-wrapper a {
+  color          : #858585;
   text-decoration: none;
-  font-size: 0.9em;
-  transition: 0.5s;
+  font-size      : 0.9em;
+  transition     : 0.5s;
 }
 
-.navigation-wrapper > .right-column > .address-wrapper a:hover {
+.navigation-wrapper>.right-column>.address-wrapper a:hover {
   color: #cea135;
 }
 
-.navigation-wrapper > .right-column > .contact-icon {
-  font-size: 2em;
+.navigation-wrapper>.right-column>.contact-icon {
+  font-size  : 2em;
   margin-left: 15px;
 }
 
-.navigation-wrapper > .right-column > .contact-icon a {
-  color: #cbcbcb;
+.navigation-wrapper>.right-column>.contact-icon a {
+  color     : #cbcbcb;
   transition: 0.5s;
 }
 
-.navigation-wrapper > .right-column > .contact-icon a:hover {
+.navigation-wrapper>.right-column>.contact-icon a:hover {
   color: #cea135;
 }
